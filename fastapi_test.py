@@ -163,6 +163,3 @@ def create_response(item : RequestJSON):
     return response
 
 app.include_router(custom_router)
-
-if __name__ == "__main__":
-    uvicorn.run("fastapi_test:app")
